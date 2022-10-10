@@ -1,7 +1,10 @@
-// SPDX-License-Identifier: MIT
+/**
+ *Submitted for verification at BscScan.com on 2021-12-08
+*/
+
 pragma solidity ^0.8.2;
 
-contract Token {
+contract EcozeenToken {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 5000000000000 * 10 ** 9;
